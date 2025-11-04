@@ -1,0 +1,1327 @@
+{
+  "simulations": [
+    {
+      "id": "zZ_Ong1DmLMAqqbu1yanz",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Alex",
+        "role": "finance"
+      },
+      "subject": "Payment Failure Notice for Invoice #30164",
+      "bodyHtml": "\n<p>Hi Alex,</p>\n<p>We were unable to process payment for <b>Invoice #59626</b>. Please review the attached statement and submit payment to avoid service interruption.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T05:51:33.687Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "1oWHDjqZ3K04_XEnkWYu5",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Alex",
+        "role": "finance"
+      },
+      "subject": "URGENT: Unpaid Invoice #77764 due today",
+      "bodyHtml": "\n<p>Hi Alex,</p>\n<p>We were unable to process payment for <b>Invoice #71906</b>. Please review the attached statement and submit payment to avoid service interruption.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T06:17:56.471Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "NHLFe6ccKiiRRGLG6im-A",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Alex",
+        "role": "finance"
+      },
+      "subject": "URGENT: Unpaid Invoice #92969 due today",
+      "bodyHtml": "\n<p>Hi Alex,</p>\n<p>We were unable to process payment for <b>Invoice #30146</b>. Please review the attached statement and submit payment to avoid service interruption.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T06:19:47.593Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "dSVbhxfktzyZTIDG-ea6m",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Alex",
+        "role": "finance"
+      },
+      "subject": "Payment Failure Notice for Invoice #96457",
+      "bodyHtml": "\n<p>Hi Alex,</p>\n<p>We were unable to process payment for <b>Invoice #28715</b>. Please review the attached statement and submit payment to avoid service interruption.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T06:19:48.699Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "tbMGVA1mevSr4fbLx53dN",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Alex",
+        "role": "finance"
+      },
+      "subject": "URGENT: Unpaid Invoice #61293 due today",
+      "bodyHtml": "\n<p>Hi Alex,</p>\n<p>We were unable to process payment for <b>Invoice #60844</b>. Please review the attached statement and submit payment to avoid service interruption.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T06:19:49.393Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "Dx2bgDkY-J9YR6VzcfjOD",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Alex",
+        "role": "finance"
+      },
+      "subject": "URGENT: Unpaid Invoice #95686 due today",
+      "bodyHtml": "\n<p>Hi Alex,</p>\n<p>We were unable to process payment for <b>Invoice #73042</b>. Please review the attached statement and submit payment to avoid service interruption.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T06:19:49.713Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "BymXMRVdV1hPH9o_XoCQ_",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Alex",
+        "role": "hr"
+      },
+      "subject": "Payment Failure Notice for Invoice #77032",
+      "bodyHtml": "\n<p>Hi Alex,</p>\n<p>We were unable to process payment for <b>Invoice #64051</b>. Please review the attached statement and submit payment to avoid service interruption.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T06:19:54.730Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "T6GBETZPBE9An9fmNcCvp",
+      "channel": "email",
+      "attackType": "hr_policy",
+      "target": {
+        "name": "Alex",
+        "role": "hr"
+      },
+      "subject": "Updated HR Policy: Please acknowledge by EOD",
+      "bodyHtml": "\n<p>Hello Alex,</p>\n<p>HR has updated the <b>Acceptable Use Policy</b>. Your acknowledgement is required by end of day.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Acknowledge policy</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T06:19:57.464Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "9Vpbs9L1ZQDHl2eHCmDSm",
+      "channel": "email",
+      "attackType": "hr_policy",
+      "target": {
+        "name": "homan",
+        "role": "hr"
+      },
+      "subject": "Mandatory Benefits Update — Signature Required",
+      "bodyHtml": "\n<p>Hello homan,</p>\n<p>HR has updated the <b>Acceptable Use Policy</b>. Your acknowledgement is required by end of day.</p>\n<p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Acknowledge policy</a></p>\n<hr/>\n<p style=\"color:#666;font-size:12px\">This is a training simulation by your Security Team.</p>",
+      "createdAt": "2025-11-04T06:20:02.522Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "h-_AY1lpeB0NTuSDjeGA2",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Alex",
+        "role": "finance"
+      },
+      "subject": "Payment Failure Notice for Invoice #84635",
+      "bodyHtml": "\n      <p>Hi Alex,</p>\n      <p>We were unable to process payment for <b>Invoice #36492</b>.\n      Please review the attached statement and submit payment to avoid service interruption.</p>\n      <p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n      <hr/>\n      <p style=\"color:#666;font-size:12px\">\n        This is a training simulation by your Security Team.\n      </p>\n    ",
+      "createdAt": "2025-11-04T06:32:37.800Z",
+      "riskWeight": 1
+    },
+    {
+      "id": "R2CfaX4ApoX-axY5ULn44",
+      "channel": "email",
+      "attackType": "invoice",
+      "target": {
+        "name": "Aled",
+        "role": "finance"
+      },
+      "subject": "Payment Failure Notice for Invoice #71270",
+      "bodyHtml": "\n      <p>Hi Aled,</p>\n      <p>We were unable to process payment for <b>Invoice #45944</b>.\n      Please review the attached statement and submit payment to avoid service interruption.</p>\n      <p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n      <hr/>\n      <p style=\"color:#666;font-size:12px\">\n        This is a training simulation by your Security Team.\n      </p>\n    ",
+      "createdAt": "2025-11-04T06:32:42.556Z",
+      "riskWeight": 3
+    },
+    {
+      "id": "P-fAcKcRNZfJ79d5VwWIB",
+      "channel": "email",
+      "attackType": "delivery",
+      "target": {
+        "name": "Aled",
+        "role": "general"
+      },
+      "subject": "Payment Failure Notice for Invoice #76120",
+      "bodyHtml": "\n      <p>Hi Aled,</p>\n      <p>We were unable to process payment for <b>Invoice #68882</b>.\n      Please review the attached statement and submit payment to avoid service interruption.</p>\n      <p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n      <hr/>\n      <p style=\"color:#666;font-size:12px\">\n        This is a training simulation by your Security Team.\n      </p>\n    ",
+      "createdAt": "2025-11-04T06:32:47.106Z",
+      "riskWeight": 2
+    },
+    {
+      "id": "yCX__GHsXQ8QOankATKe8",
+      "channel": "email",
+      "attackType": "delivery",
+      "target": {
+        "name": "Aled",
+        "role": "general"
+      },
+      "subject": "Payment Failure Notice for Invoice #82350",
+      "bodyHtml": "\n      <p>Hi Aled,</p>\n      <p>We were unable to process payment for <b>Invoice #67040</b>.\n      Please review the attached statement and submit payment to avoid service interruption.</p>\n      <p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n      <hr/>\n      <p style=\"color:#666;font-size:12px\">\n        This is a training simulation by your Security Team.\n      </p>\n    ",
+      "createdAt": "2025-11-04T06:32:51.910Z",
+      "riskWeight": 4
+    },
+    {
+      "id": "jsOZEJeVXAJpdrXpPzO6x",
+      "channel": "email",
+      "attackType": "delivery",
+      "target": {
+        "name": "Aleddc",
+        "role": "hr"
+      },
+      "subject": "Payment Failure Notice for Invoice #59144",
+      "bodyHtml": "\n      <p>Hi Aleddc,</p>\n      <p>We were unable to process payment for <b>Invoice #10346</b>.\n      Please review the attached statement and submit payment to avoid service interruption.</p>\n      <p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n      <hr/>\n      <p style=\"color:#666;font-size:12px\">\n        This is a training simulation by your Security Team.\n      </p>\n    ",
+      "createdAt": "2025-11-04T06:32:56.092Z",
+      "riskWeight": 1
+    },
+    {
+      "id": "_0g28aF2A2ErYZpeg5cmh",
+      "channel": "email",
+      "attackType": "account_verify",
+      "target": {
+        "name": "Mohammed",
+        "role": "it"
+      },
+      "subject": "Payment Failure Notice for Invoice #94369",
+      "bodyHtml": "\n      <p>Hi Mohammed,</p>\n      <p>We were unable to process payment for <b>Invoice #80184</b>.\n      Please review the attached statement and submit payment to avoid service interruption.</p>\n      <p><a href=\"https://example.com/training/redirect\" target=\"_blank\">Review invoice</a></p>\n      <hr/>\n      <p style=\"color:#666;font-size:12px\">\n        This is a training simulation by your Security Team.\n      </p>\n    ",
+      "createdAt": "2025-11-04T06:36:37.766Z",
+      "riskWeight": 2
+    }
+  ],
+  "interactions": [
+    {
+      "id": "4cb15d06-6048-42e2-8cd9-67044aec5fd8",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 4200,
+      "createdAt": "2025-11-04T05:52:18.704Z"
+    },
+    {
+      "id": "7f86992c-5594-4e59-ac49-fe05f97ec487",
+      "simulationId": "R2CfaX4ApoX-axY5ULn44",
+      "action": "clicked",
+      "latencyMs": 4127,
+      "createdAt": "2025-11-04T06:33:00.090Z"
+    },
+    {
+      "id": "eb3de417-abdd-4fe8-9519-3f223c92fc0d",
+      "simulationId": "R2CfaX4ApoX-axY5ULn44",
+      "action": "reported",
+      "latencyMs": 4656,
+      "createdAt": "2025-11-04T06:33:02.017Z"
+    },
+    {
+      "id": "8e85f359-46e2-439c-8a9e-a6bda6646466",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 1687,
+      "createdAt": "2025-11-04T06:33:05.683Z"
+    },
+    {
+      "id": "e21acba1-a24a-4db4-8106-cb25c2a2bea4",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 2469,
+      "createdAt": "2025-11-04T06:33:06.314Z"
+    },
+    {
+      "id": "fc034ec1-80c0-4c9b-aa8c-d344c10df60f",
+      "simulationId": "1oWHDjqZ3K04_XEnkWYu5",
+      "action": "reported",
+      "latencyMs": 2120,
+      "createdAt": "2025-11-04T06:33:07.303Z"
+    },
+    {
+      "id": "fb4ac6c9-3c5e-4225-af99-9ff3fe340241",
+      "simulationId": "1oWHDjqZ3K04_XEnkWYu5",
+      "action": "clicked",
+      "latencyMs": 1270,
+      "createdAt": "2025-11-04T06:33:08.139Z"
+    },
+    {
+      "id": "70537094-0437-4017-b1ed-61d5ce3cb7dc",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 1190,
+      "createdAt": "2025-11-04T06:33:10.305Z"
+    },
+    {
+      "id": "0fb646e7-e6a8-44e2-9468-debba80053b9",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 1989,
+      "createdAt": "2025-11-04T06:33:11.475Z"
+    },
+    {
+      "id": "b642b37c-87d2-4f4e-89fc-cf1bf814a820",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 41,
+      "createdAt": "2025-11-04T06:33:12.750Z"
+    },
+    {
+      "id": "8298e44a-e0f9-4d85-8f5b-a9118e8b7430",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 142,
+      "createdAt": "2025-11-04T06:33:13.628Z"
+    },
+    {
+      "id": "55896afd-37b0-49f2-8188-977b1e987098",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 1374,
+      "createdAt": "2025-11-04T06:33:15.195Z"
+    },
+    {
+      "id": "8645bb7d-75b4-4f04-8154-f60b803fc327",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 2330,
+      "createdAt": "2025-11-04T06:33:15.340Z"
+    },
+    {
+      "id": "0c1b1879-84b4-4d7e-8b1e-4833c6436d3a",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 2827,
+      "createdAt": "2025-11-04T06:33:15.655Z"
+    },
+    {
+      "id": "385ad140-d2a0-4d7f-86e4-e2742e59db82",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 2237,
+      "createdAt": "2025-11-04T06:33:15.828Z"
+    },
+    {
+      "id": "fe7612cf-fd35-46ae-9eef-70b537a615e8",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 538,
+      "createdAt": "2025-11-04T06:33:15.988Z"
+    },
+    {
+      "id": "c2576d7f-9966-4382-b74e-c81e69c7efee",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 2171,
+      "createdAt": "2025-11-04T06:33:16.169Z"
+    },
+    {
+      "id": "2a19ae92-573c-4cfb-8c1b-666be5bc3dba",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 2533,
+      "createdAt": "2025-11-04T06:33:16.343Z"
+    },
+    {
+      "id": "890aad79-4cdf-4fac-af1f-b32ea7955944",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 2243,
+      "createdAt": "2025-11-04T06:33:16.511Z"
+    },
+    {
+      "id": "54d22419-461f-45a0-8b86-5aa60e783627",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 1835,
+      "createdAt": "2025-11-04T06:33:16.677Z"
+    },
+    {
+      "id": "6f75845d-d13f-428f-81d4-768abc00666b",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 3393,
+      "createdAt": "2025-11-04T06:33:16.857Z"
+    },
+    {
+      "id": "c968aa90-bc7e-4eb1-92af-e49a8c341cc7",
+      "simulationId": "1oWHDjqZ3K04_XEnkWYu5",
+      "action": "reported",
+      "latencyMs": 4838,
+      "createdAt": "2025-11-04T06:33:18.537Z"
+    },
+    {
+      "id": "13bf9f45-7079-4deb-a1e9-762e5956d844",
+      "simulationId": "1oWHDjqZ3K04_XEnkWYu5",
+      "action": "reported",
+      "latencyMs": 2749,
+      "createdAt": "2025-11-04T06:33:18.774Z"
+    },
+    {
+      "id": "15050be2-5305-4ec4-857a-ddbf7656374e",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 3299,
+      "createdAt": "2025-11-04T06:33:19.623Z"
+    },
+    {
+      "id": "94c76b3c-82c4-426a-a4ad-fb4d105c316c",
+      "simulationId": "Dx2bgDkY-J9YR6VzcfjOD",
+      "action": "reported",
+      "latencyMs": 4898,
+      "createdAt": "2025-11-04T06:33:21.974Z"
+    },
+    {
+      "id": "ce399d97-e3c3-4137-a1bf-b7242aaa9f1d",
+      "simulationId": "tbMGVA1mevSr4fbLx53dN",
+      "action": "reported",
+      "latencyMs": 4784,
+      "createdAt": "2025-11-04T06:33:22.919Z"
+    },
+    {
+      "id": "47f481b0-3df7-43b4-a5d6-1b38ec3e92e8",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "reported",
+      "latencyMs": 3874,
+      "createdAt": "2025-11-04T06:33:23.587Z"
+    },
+    {
+      "id": "e43cae91-2035-45be-a07f-ddb4c8e52134",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 2278,
+      "createdAt": "2025-11-04T06:33:24.521Z"
+    },
+    {
+      "id": "55c82f1d-640b-4330-bead-930ff52e8fe8",
+      "simulationId": "tbMGVA1mevSr4fbLx53dN",
+      "action": "clicked",
+      "latencyMs": 2078,
+      "createdAt": "2025-11-04T06:33:25.350Z"
+    },
+    {
+      "id": "a8f90f95-2316-4c7a-9357-fef5123e52d4",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 153,
+      "createdAt": "2025-11-04T06:33:25.872Z"
+    },
+    {
+      "id": "de4f5c35-ff41-4c00-9c61-f25a9826139f",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 3377,
+      "createdAt": "2025-11-04T06:33:26.179Z"
+    },
+    {
+      "id": "0542a10a-5835-415f-9ef7-2f8dd5866f13",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 3958,
+      "createdAt": "2025-11-04T06:33:26.354Z"
+    },
+    {
+      "id": "3c07fd92-ee0a-4a0b-b937-16f3856d0a95",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 2059,
+      "createdAt": "2025-11-04T06:33:26.521Z"
+    },
+    {
+      "id": "1abd785b-d215-430c-8bcf-a9a34d705aa4",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 4323,
+      "createdAt": "2025-11-04T06:33:26.695Z"
+    },
+    {
+      "id": "4a99a339-5d7f-402d-9a82-07b8b6177098",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 3733,
+      "createdAt": "2025-11-04T06:33:26.863Z"
+    },
+    {
+      "id": "5161fce0-cced-4ebd-96bd-054dd41ab8a3",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 1753,
+      "createdAt": "2025-11-04T06:33:27.017Z"
+    },
+    {
+      "id": "8dd3cfcf-9c11-4e78-ae7b-e51eeb392c37",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 2543,
+      "createdAt": "2025-11-04T06:33:27.189Z"
+    },
+    {
+      "id": "76b2a87a-5bdb-49d9-919b-f2c218b6b304",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 2808,
+      "createdAt": "2025-11-04T06:33:27.363Z"
+    },
+    {
+      "id": "d936b0f8-7f94-47e6-8e01-77ff9cb4b51e",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 657,
+      "createdAt": "2025-11-04T06:33:27.524Z"
+    },
+    {
+      "id": "fa57c5ad-fdb8-41cf-be4d-93ecbe63a65e",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 133,
+      "createdAt": "2025-11-04T06:33:27.697Z"
+    },
+    {
+      "id": "0aa48f6f-f581-4699-9298-3f967ac91435",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 2151,
+      "createdAt": "2025-11-04T06:33:28.039Z"
+    },
+    {
+      "id": "f218cb75-eb01-4bc2-840e-cbca6639f212",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 73,
+      "createdAt": "2025-11-04T06:33:28.241Z"
+    },
+    {
+      "id": "af3d1f05-6c3a-44a1-8984-c0f3cb30d306",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 421,
+      "createdAt": "2025-11-04T06:33:28.437Z"
+    },
+    {
+      "id": "82b9a74d-0ee1-44ed-b83b-3c3d3228605c",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 258,
+      "createdAt": "2025-11-04T06:33:28.584Z"
+    },
+    {
+      "id": "d465a95d-62d0-46d5-86a8-4d22fc555a8b",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 4045,
+      "createdAt": "2025-11-04T06:33:28.764Z"
+    },
+    {
+      "id": "ac897613-f0fb-4cb7-aa62-8ad35666b55d",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 4413,
+      "createdAt": "2025-11-04T06:33:28.926Z"
+    },
+    {
+      "id": "35c54d15-b58f-4a4f-85df-6dcf1319411c",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 4144,
+      "createdAt": "2025-11-04T06:33:29.077Z"
+    },
+    {
+      "id": "8ed93d30-1114-4747-95e9-292fc0c69784",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 40,
+      "createdAt": "2025-11-04T06:33:29.259Z"
+    },
+    {
+      "id": "336fcd4f-ebfd-480d-8ab5-dae613676f07",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 3984,
+      "createdAt": "2025-11-04T06:33:29.427Z"
+    },
+    {
+      "id": "c7074a32-5fc5-44af-bfc9-b255cd537e11",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 3638,
+      "createdAt": "2025-11-04T06:33:29.607Z"
+    },
+    {
+      "id": "b7da9d45-2cc6-43ef-b057-5e01f3f18b6a",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 4102,
+      "createdAt": "2025-11-04T06:33:29.795Z"
+    },
+    {
+      "id": "ee54225f-1262-4042-9547-0b84f9c9120e",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "clicked",
+      "latencyMs": 3015,
+      "createdAt": "2025-11-04T06:33:29.983Z"
+    },
+    {
+      "id": "d08f632e-5a6c-47f4-9f67-7e22c06431f9",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 524,
+      "createdAt": "2025-11-04T06:33:32.130Z"
+    },
+    {
+      "id": "3260ced7-2f69-4851-82b7-452d9c7bb0fe",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 825,
+      "createdAt": "2025-11-04T06:33:32.316Z"
+    },
+    {
+      "id": "2a4ef338-36fb-4b1a-80be-707d6d3df7db",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 135,
+      "createdAt": "2025-11-04T06:33:32.497Z"
+    },
+    {
+      "id": "cbd674b8-dcb7-4608-9ca4-0ab0448999b1",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 3161,
+      "createdAt": "2025-11-04T06:33:32.665Z"
+    },
+    {
+      "id": "7af54603-e140-4df6-b7c5-ae9236aa5e48",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 4180,
+      "createdAt": "2025-11-04T06:33:32.839Z"
+    },
+    {
+      "id": "47335592-d4c0-4e0d-9991-ccb5a66802a6",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 1054,
+      "createdAt": "2025-11-04T06:33:33.007Z"
+    },
+    {
+      "id": "f27d0b77-6a4b-4049-8062-ae3ca38ebca4",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 3080,
+      "createdAt": "2025-11-04T06:33:33.174Z"
+    },
+    {
+      "id": "d8757b67-54b2-465c-b6d3-ba6bf6405d75",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 1247,
+      "createdAt": "2025-11-04T06:33:33.341Z"
+    },
+    {
+      "id": "fd8c824a-a7dc-4862-b401-dd1733c47984",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 1702,
+      "createdAt": "2025-11-04T06:33:33.586Z"
+    },
+    {
+      "id": "e76235aa-b79b-4735-9613-7b15368c6aad",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 3544,
+      "createdAt": "2025-11-04T06:35:53.666Z"
+    },
+    {
+      "id": "2eae6d64-d7f5-435c-a5c0-54f9e3704683",
+      "simulationId": "1oWHDjqZ3K04_XEnkWYu5",
+      "action": "reported",
+      "latencyMs": 3285,
+      "createdAt": "2025-11-04T06:35:54.428Z"
+    },
+    {
+      "id": "4ba4ad1a-2794-43b1-bc4b-dc4f50e1b6c5",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 4688,
+      "createdAt": "2025-11-04T06:35:55.159Z"
+    },
+    {
+      "id": "12dcb66a-84d5-4c47-8903-bad0f2d397b1",
+      "simulationId": "dSVbhxfktzyZTIDG-ea6m",
+      "action": "reported",
+      "latencyMs": 3233,
+      "createdAt": "2025-11-04T06:35:55.912Z"
+    },
+    {
+      "id": "ff378f18-1b67-4467-8515-0be5852d62e6",
+      "simulationId": "tbMGVA1mevSr4fbLx53dN",
+      "action": "reported",
+      "latencyMs": 3019,
+      "createdAt": "2025-11-04T06:35:56.572Z"
+    },
+    {
+      "id": "3cead692-2089-4594-a22b-cad32a8e919b",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 2179,
+      "createdAt": "2025-11-04T06:36:00.232Z"
+    },
+    {
+      "id": "6813f63f-9359-4d8e-abfb-9eff15707b84",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 2693,
+      "createdAt": "2025-11-04T06:36:01.559Z"
+    },
+    {
+      "id": "45551ed1-7a88-46a5-a4cb-af71eabe2042",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 1966,
+      "createdAt": "2025-11-04T06:36:02.151Z"
+    },
+    {
+      "id": "b23355bd-0ab2-40a5-847a-07b0c0e5c56c",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 676,
+      "createdAt": "2025-11-04T06:36:02.478Z"
+    },
+    {
+      "id": "d2d37efe-ff58-48ea-b90c-b940e82ef549",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 4419,
+      "createdAt": "2025-11-04T06:36:02.868Z"
+    },
+    {
+      "id": "7a57ae3b-da94-48f3-9159-91e6b7adc8dd",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 3871,
+      "createdAt": "2025-11-04T06:36:03.063Z"
+    },
+    {
+      "id": "649b9687-b986-4b76-a98d-cd3ba54201dd",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 110,
+      "createdAt": "2025-11-04T06:36:03.223Z"
+    },
+    {
+      "id": "a9436405-a644-4e47-b272-abac52d4f79d",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 4087,
+      "createdAt": "2025-11-04T06:36:03.390Z"
+    },
+    {
+      "id": "de9a6555-7f16-4b20-bb74-737aba0e8417",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 2930,
+      "createdAt": "2025-11-04T06:36:03.571Z"
+    },
+    {
+      "id": "53b5ff1b-ca8c-49a0-841d-b229b9a25a6a",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 2333,
+      "createdAt": "2025-11-04T06:36:03.905Z"
+    },
+    {
+      "id": "1c0b4a49-e41c-4ba5-a6de-9de41ab505e3",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 2721,
+      "createdAt": "2025-11-04T06:36:04.908Z"
+    },
+    {
+      "id": "bdc2bbfb-5baa-4ae1-8a66-c177220900a2",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 1467,
+      "createdAt": "2025-11-04T06:36:05.077Z"
+    },
+    {
+      "id": "e2f70639-dddf-4244-a726-9b1745a96506",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 363,
+      "createdAt": "2025-11-04T06:36:05.253Z"
+    },
+    {
+      "id": "a4ccdecd-2749-44aa-b7af-f9a9a27d5fb1",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 2555,
+      "createdAt": "2025-11-04T06:36:05.419Z"
+    },
+    {
+      "id": "27c19353-083c-491c-9f11-bfa93a7ffea0",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 635,
+      "createdAt": "2025-11-04T06:36:05.598Z"
+    },
+    {
+      "id": "e4183de4-1aee-4ffc-a7dc-24abacd41484",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 1591,
+      "createdAt": "2025-11-04T06:36:05.765Z"
+    },
+    {
+      "id": "d83c3c0a-49c0-41b8-b6c2-59dc6663a7e5",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 1966,
+      "createdAt": "2025-11-04T06:36:05.938Z"
+    },
+    {
+      "id": "0f5ca093-0f9c-40d1-b2d1-963da3a532dc",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 1020,
+      "createdAt": "2025-11-04T06:36:06.126Z"
+    },
+    {
+      "id": "cfe73e43-fd87-4084-8dff-ca16168aeb1d",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 1824,
+      "createdAt": "2025-11-04T06:36:06.489Z"
+    },
+    {
+      "id": "7de0d263-5a15-4a3d-beed-f175d521d654",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 4571,
+      "createdAt": "2025-11-04T06:36:06.677Z"
+    },
+    {
+      "id": "02663c5e-3c46-4a43-aff0-4143a2b9f417",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 4316,
+      "createdAt": "2025-11-04T06:36:06.845Z"
+    },
+    {
+      "id": "fa9e24e4-0ca4-4009-9ff8-4fdd12d639bd",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 2112,
+      "createdAt": "2025-11-04T06:36:07.019Z"
+    },
+    {
+      "id": "9f9e6b4b-b1d9-4cce-8151-e8743cdfcd1b",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 2349,
+      "createdAt": "2025-11-04T06:36:07.186Z"
+    },
+    {
+      "id": "3870eb59-ce06-496f-92d0-79c79674b6b7",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 3633,
+      "createdAt": "2025-11-04T06:36:07.640Z"
+    },
+    {
+      "id": "2aacd78f-2e4c-4b1d-b8a4-492ec300dfa9",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 1447,
+      "createdAt": "2025-11-04T06:36:08.021Z"
+    },
+    {
+      "id": "a9333af0-ff52-406f-9871-bc593ee5dee5",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 331,
+      "createdAt": "2025-11-04T06:36:08.370Z"
+    },
+    {
+      "id": "f64d4ff6-9ce3-41ad-b250-824eed986405",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 3312,
+      "createdAt": "2025-11-04T06:36:08.815Z"
+    },
+    {
+      "id": "372a9194-4695-4ffc-b472-59740a462d7e",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 2937,
+      "createdAt": "2025-11-04T06:36:09.226Z"
+    },
+    {
+      "id": "08b6ff38-5407-4049-a7d2-232c56db7d68",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 3252,
+      "createdAt": "2025-11-04T06:36:09.582Z"
+    },
+    {
+      "id": "a99a7424-b36e-4330-a9b6-702945a23bd1",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 4807,
+      "createdAt": "2025-11-04T06:36:10.034Z"
+    },
+    {
+      "id": "3e290ffa-c5b7-4938-a4e9-adcdcd161c08",
+      "simulationId": "1oWHDjqZ3K04_XEnkWYu5",
+      "action": "clicked",
+      "latencyMs": 2724,
+      "createdAt": "2025-11-04T06:36:11.441Z"
+    },
+    {
+      "id": "ac68afda-9f2f-4c18-a104-105562c7451e",
+      "simulationId": "1oWHDjqZ3K04_XEnkWYu5",
+      "action": "reported",
+      "latencyMs": 4298,
+      "createdAt": "2025-11-04T06:36:11.879Z"
+    },
+    {
+      "id": "6774eca8-59a7-4333-9e72-39e292f7f057",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 4854,
+      "createdAt": "2025-11-04T06:36:12.436Z"
+    },
+    {
+      "id": "328d89d5-6eab-4060-9500-dd8725e502e5",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 1790,
+      "createdAt": "2025-11-04T06:36:13.711Z"
+    },
+    {
+      "id": "ce55b19a-65a7-409c-8741-0dd3a1e0e1d1",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 4345,
+      "createdAt": "2025-11-04T06:36:14.212Z"
+    },
+    {
+      "id": "5dadf9a2-3675-44fa-a42e-94b56a719b28",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 3140,
+      "createdAt": "2025-11-04T06:36:14.999Z"
+    },
+    {
+      "id": "cec9bd68-84c7-4733-8680-f82e7ee24a4c",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 4985,
+      "createdAt": "2025-11-04T06:36:15.562Z"
+    },
+    {
+      "id": "0b1d72e7-d94b-4789-a761-bc295663cc21",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 473,
+      "createdAt": "2025-11-04T06:36:16.008Z"
+    },
+    {
+      "id": "43b819e7-6004-4dd0-9558-b2de8c9002d7",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 4367,
+      "createdAt": "2025-11-04T06:36:16.322Z"
+    },
+    {
+      "id": "960b26d0-f579-456f-8911-4c42c75f341c",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 3818,
+      "createdAt": "2025-11-04T06:36:16.505Z"
+    },
+    {
+      "id": "11df6a14-4c2b-4f03-ab9f-a48bbdcb85ba",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 950,
+      "createdAt": "2025-11-04T06:36:16.684Z"
+    },
+    {
+      "id": "b36ed4c2-b39c-41b5-a875-14d6ee352f20",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 1752,
+      "createdAt": "2025-11-04T06:36:16.839Z"
+    },
+    {
+      "id": "9eec700a-22ce-48fc-92a3-a0ae61bf0e7d",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 23,
+      "createdAt": "2025-11-04T06:36:17.040Z"
+    },
+    {
+      "id": "a17afd09-e9bd-453a-a11b-a112f86543cc",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "reported",
+      "latencyMs": 427,
+      "createdAt": "2025-11-04T06:36:17.223Z"
+    },
+    {
+      "id": "766da9bd-7e93-48c2-b601-0a2856b9bc20",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 406,
+      "createdAt": "2025-11-04T06:36:19.309Z"
+    },
+    {
+      "id": "00843f6f-bf73-4a7a-83df-6553156befcc",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 4971,
+      "createdAt": "2025-11-04T06:36:19.490Z"
+    },
+    {
+      "id": "acf0ad97-4719-472e-82a9-f8cbc8386758",
+      "simulationId": "NHLFe6ccKiiRRGLG6im-A",
+      "action": "clicked",
+      "latencyMs": 1482,
+      "createdAt": "2025-11-04T06:36:19.713Z"
+    },
+    {
+      "id": "32d5cf4d-94bb-45a4-a881-e7930e7f023b",
+      "simulationId": "_0g28aF2A2ErYZpeg5cmh",
+      "action": "clicked",
+      "latencyMs": 395,
+      "createdAt": "2025-11-04T06:36:42.534Z"
+    },
+    {
+      "id": "602aec77-2bf2-450b-ba7e-765a59438287",
+      "simulationId": "_0g28aF2A2ErYZpeg5cmh",
+      "action": "reported",
+      "latencyMs": 1295,
+      "createdAt": "2025-11-04T06:36:43.298Z"
+    },
+    {
+      "id": "66fd9ebd-275f-4bf1-b72a-b5010ad96b77",
+      "simulationId": "_0g28aF2A2ErYZpeg5cmh",
+      "action": "reported",
+      "latencyMs": 2638,
+      "createdAt": "2025-11-04T06:36:43.570Z"
+    },
+    {
+      "id": "60f53818-7d05-4bc1-9434-01c3287402fe",
+      "simulationId": "_0g28aF2A2ErYZpeg5cmh",
+      "action": "reported",
+      "latencyMs": 1103,
+      "createdAt": "2025-11-04T06:36:43.758Z"
+    },
+    {
+      "id": "b82e7657-cd4c-4372-839e-b845b434cbde",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 3173,
+      "createdAt": "2025-11-04T06:38:21.343Z"
+    },
+    {
+      "id": "fa32e475-e4c7-4074-b2dc-6c259951be36",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 616,
+      "createdAt": "2025-11-04T06:38:21.925Z"
+    },
+    {
+      "id": "9de72d50-5fc4-484c-b41a-6fef02193a45",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 4507,
+      "createdAt": "2025-11-04T06:38:22.517Z"
+    },
+    {
+      "id": "09d22a04-416e-4ec6-836b-8e6fa77c60f0",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 464,
+      "createdAt": "2025-11-04T06:38:23.067Z"
+    },
+    {
+      "id": "b5c30b64-19cd-4023-afb6-e8e2150a2e8e",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 314,
+      "createdAt": "2025-11-04T06:38:23.583Z"
+    },
+    {
+      "id": "972a293b-ee61-4a01-baee-18b9e236a666",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 706,
+      "createdAt": "2025-11-04T06:38:24.035Z"
+    },
+    {
+      "id": "debfa7d3-5d19-4bb5-b332-6a127cc86f70",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 3752,
+      "createdAt": "2025-11-04T06:38:24.564Z"
+    },
+    {
+      "id": "e25f0564-e5ff-442b-b71d-9b7a2105b604",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 217,
+      "createdAt": "2025-11-04T06:38:25.220Z"
+    },
+    {
+      "id": "6288bad4-6ca6-4614-8f19-c0daee723b53",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 1703,
+      "createdAt": "2025-11-04T06:38:25.743Z"
+    },
+    {
+      "id": "1f206b31-71f6-420b-8fc9-1910069f25cb",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 3268,
+      "createdAt": "2025-11-04T06:38:26.243Z"
+    },
+    {
+      "id": "febb2651-2850-4ebd-a2c3-b49520a30931",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 121,
+      "createdAt": "2025-11-04T06:38:26.711Z"
+    },
+    {
+      "id": "fcd76f18-8715-43c7-a5e2-a58a9ce971b7",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "reported",
+      "latencyMs": 4401,
+      "createdAt": "2025-11-04T06:38:35.877Z"
+    },
+    {
+      "id": "278e6210-c76d-4184-b9e1-317bea58d898",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 1221,
+      "createdAt": "2025-11-04T06:38:37.574Z"
+    },
+    {
+      "id": "6b36074f-3dbd-417c-a25f-6087e246a86a",
+      "simulationId": "zZ_Ong1DmLMAqqbu1yanz",
+      "action": "clicked",
+      "latencyMs": 1118,
+      "createdAt": "2025-11-04T06:38:38.714Z"
+    },
+    {
+      "id": "41197bbe-c066-46fc-abf6-654b9395fc2f",
+      "simulationId": "_0g28aF2A2ErYZpeg5cmh",
+      "action": "reported",
+      "latencyMs": 912,
+      "createdAt": "2025-11-04T06:40:42.474Z"
+    },
+    {
+      "id": "68db9fac-9767-415d-b6d8-ba6b61611af6",
+      "simulationId": "_0g28aF2A2ErYZpeg5cmh",
+      "action": "reported",
+      "latencyMs": 2051,
+      "createdAt": "2025-11-04T06:40:43.085Z"
+    },
+    {
+      "id": "10d90f17-50c6-400d-b41a-c37713939763",
+      "simulationId": "jsOZEJeVXAJpdrXpPzO6x",
+      "action": "reported",
+      "latencyMs": 2409,
+      "createdAt": "2025-11-04T06:40:43.974Z"
+    },
+    {
+      "id": "bf26718f-021a-4e4c-a269-c15ca2d192aa",
+      "simulationId": "yCX__GHsXQ8QOankATKe8",
+      "action": "reported",
+      "latencyMs": 3143,
+      "createdAt": "2025-11-04T06:40:44.594Z"
+    },
+    {
+      "id": "d6c33f78-58ec-4982-b5ea-f88d21fe78b9",
+      "simulationId": "P-fAcKcRNZfJ79d5VwWIB",
+      "action": "reported",
+      "latencyMs": 2551,
+      "createdAt": "2025-11-04T06:40:45.563Z"
+    }
+  ],
+  "trend": [
+    {
+      "timestamp": "2025-11-04T06:38:29.793Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:30.708Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:33.859Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:35.882Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:37.581Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:38.721Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:38.859Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:40.709Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:43.860Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:48.860Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:50.708Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:53.859Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:38:58.858Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:00.709Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:03.858Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:08.858Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:13.859Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:18.858Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:23.859Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:28.860Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:33.861Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:38.710Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:38.859Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:43.860Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:48.859Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:53.860Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:39:58.860Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:03.860Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:08.860Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:13.859Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:17.267Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:17.270Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:27.272Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:29.044Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:34.046Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:36.075Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:42.480Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:43.092Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:43.981Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:44.599Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:40:45.570Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:41:36.078Z",
+      "riskScore": 100
+    },
+    {
+      "timestamp": "2025-11-04T06:42:36.076Z",
+      "riskScore": 100
+    }
+  ]
+}
