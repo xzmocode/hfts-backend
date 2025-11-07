@@ -1,29 +1,35 @@
 // src/routes/simulations.js
 import express from "express";
 import { getDB } from "../db/store.js";
-import { nanoid } from "nanoid";
 import { templates } from "../utils/templates.js";
+import { nanoid } from "nanoid";
 
 const router = express.Router();
 
-// POST /api/simulations/email
+// ✅ Create new email simulation
 router.post("/email", (req, res) => {
-  const db = getDB();
   const { targetName, targetRole, attackType } = req.body;
 
-  const id = nanoid();
-  const subject = templates.email.subject(targetName, attackType);
-  const bodyHtml = templates.email.body(targetName, targetRole, attackType);
+  if (!targetName || !targetRole || !attackType) {
+    return res.status(400).json({ error: "Missing required fields" });
+  }
+
+  const db = getDB();
+  const template = templates.email[attackType];
+
+  if (!template) {
+    return res.status(400).json({ error: "Unknown attack type" });
+  }
 
   const sim = {
-    id,
+    id: nanoid(),
     channel: "email",
     attackType,
     target: { name: targetName, role: targetRole },
-    subject,
-    bodyHtml,
+    subject: template.subject(),
+    bodyHtml: template.body(targetName),
     createdAt: new Date().toISOString(),
-    riskWeight: Math.floor(Math.random() * 5) + 1,
+    riskWeight: template.riskWeight,
   };
 
   db.data.simulations.push(sim);
@@ -32,10 +38,10 @@ router.post("/email", (req, res) => {
   res.json(sim);
 });
 
-// GET /api/simulations
+// ✅ Get all simulations
 router.get("/", (req, res) => {
   const db = getDB();
-  res.json(db.data.simulations);
+  res.json(db.data.simulations || []);
 });
 
 export default router;

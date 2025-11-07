@@ -13,7 +13,7 @@ export function initDB() {
   const file = join(dataDir, "db.json");
 
   const adapter = new JSONFileSync(file);
-  db = new LowSync(adapter, { simulations: [], interactions: [], trend: [] });
+  db = new LowSync(adapter, { simulations: [], interactions: [], trend: [], users: [] });
 
   db.read();
   if (!db.data) db.data = { simulations: [], interactions: [], trend: [] };
